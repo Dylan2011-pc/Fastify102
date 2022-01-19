@@ -1,0 +1,60 @@
+.listdevicemuonchoduyet{
+    margin-top: 30px;
+    width: 100%;
+    
+
+}
+.btn{
+    margin-top: 20px;
+}
+.imgpicture{
+    width: 50px;
+    height: 50px;
+}
+.inputsearchdevicechoduyet {
+    display: flex;
+    margin-top: 90px;
+    width: 80%;
+    margin-left: 80px;
+
+}
+.inputcho{
+    margin-top: 22px;
+}
+.inputsearchdevicechoduyet .selectnhom{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1000px){
+    .inputsearchdevicechoduyet {
+        display: block;
+        margin-top: 90px;
+        width: 80%;
+        margin-left: 80px;
+    }
+    .inputsearchdevicechoduyet .selectnhom{
+        margin-top: 20px;
+        margin-left: -60px;
+        font-size: 60%;
+        width: 7cm;
+        margin-bottom: -100px;
+    }
+    .inputsearchdevicechoduyet .inputcho{
+        margin-left: -60px;
+        font-size: 60%;
+        width: 7cm;
+        margin-bottom: 0px;
+    }
+   
+    .inputsearchdevicechoduyet .btn{
+        margin-left: -60px;
+        margin-top: 50px;
+        margin-bottom: -20px;
+    }
+    .bang789{
+        font-size: 40%;
+        width: 90%;
+    }
+}

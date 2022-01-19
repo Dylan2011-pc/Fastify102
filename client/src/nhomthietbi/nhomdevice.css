@@ -1,0 +1,69 @@
+.nhomdevice{
+    margin-top: 100px;
+    padding-left: 100px;
+    width: 100%;
+}
+.btnnhomthietbi{
+    margin-left: -20px;
+    margin-top: 40px;
+    margin-right: 100px;
+    text-align: top;
+    width: 3.5cm;
+}
+.iconnhom{
+    margin-left: 6px;
+}
+.ListNhom {
+    width: 87%;
+    margin-left: 12%;
+} 
+.buttonsearch{
+    width: 3.5cm;
+    margin-left: 40px;
+}
+.inputsearch1{
+    margin-left: 17px;
+    margin-top: 1cm;
+    margin-right: 30px;
+}
+
+@media only screen and (max-width: 740px){
+    .ListNhom{
+        width: 100%;
+        
+    }
+    .formSearch{
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+    .grptable{
+        margin-left: -30px;
+        width: 80%;
+        font-size: 56%;
+    }
+    .inputsearch1{
+        width: 6cm;
+        margin-left: 0px;
+        font-size: 90%;
+        margin-bottom: 0px;
+        
+        height: 110%;
+    }
+    .formSearch .btn{
+        width: 50%;
+        height: 50%;
+        margin-left: -30px;
+        font-size: 70%;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .formSearch .btnnhomthietbi{
+        margin-right: 20px;
+        margin-left: -30px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 70%;
+        width: 50%;
+        height: 50%;
+    }
+}

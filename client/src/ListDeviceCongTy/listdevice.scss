@@ -1,0 +1,119 @@
+.listdevicemuon{
+    margin-top: 70px;
+    width: 100%;
+}
+.formSearch .buttonsearch{
+    background-color: #12cce0;
+    color: black;
+    margin-top: 40px;
+    margin-left: 100px;
+    height: 1cm;
+}
+.formSearch .buttoncreatedevice{
+    margin-top: 40px;
+    text-align: center;
+    color: black;
+	background-color:#19bcfc;
+    width: 4cm;
+    height: 1cm;
+}
+
+.formSearch{
+    
+    margin-left: -100px;
+}
+.inputsearch{
+    width: 80%;
+}
+
+
+.editDevice{
+    width:60%;
+    margin-left: 20%;
+    margin-top: 70px;
+}
+
+.selectnhom {
+    margin-top: 37px;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    margin-right: -50px;
+    
+}
+option{
+    border-radius: 3px;
+}
+
+@media only screen and (max-width: 1305px){
+    .formSearch .buttoncreatedevice{
+        width: 5cm;
+        font-size: 70%;
+    }
+    .formSearch {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 1030px){
+    .formSearch .buttoncreatedevice{
+        width: 5cm;
+        font-size: 70%;
+    }
+    .formSearch {
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .selectnhom{
+        width: 4cm;
+    }
+    .inputsearch{
+        width: 4cm;
+        margin-right: -70px;
+    }
+    .tabledevice{
+        font-size: 60%;
+    }
+
+}
+
+
+@media only screen and (max-width: 817px){
+    .listdevicemuon{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .tabledevice{
+        font-size: 40%;
+        margin-left: 10px;
+    }
+    .buttoncreatedevice{
+        margin-right: 100px;
+    }
+   
+    .formSearch{
+        display: block;
+        margin-left: 40px;
+        margin-bottom: 10px;
+    }
+     .formSearch .inputsearch{
+        margin-left: -0.8cm ;
+        width: 5.1cm;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+     .selectnhom{
+        margin-left: -0.8cm;
+        margin-top: 10px;
+        width: 80%;
+        height: 60%;
+        font-size: 60%;
+    }
+    .formSearch .buttonsearch{
+        margin-top: 10px;
+        margin-left: 1cm;
+        margin-bottom: 10px;
+        
+    }
+}
